@@ -384,6 +384,26 @@ Please enter this code in WhatsApp app:
 }
 
 // --- Dedicated function to handle post-connection initialization and welcome message
+
+// 🧩 Host Detection Function
+function detectHost() {
+    const env = process.env;
+
+    if (env.RENDER || env.RENDER_EXTERNAL_URL) return 'Render';
+    if (env.DYNO || env.HEROKU_APP_DIR || env.HEROKU_SLUG_COMMIT) return 'Heroku';
+    if (env.VERCEL || env.VERCEL_ENV || env.VERCEL_URL) return 'Vercel';
+    if (env.RAILWAY_ENVIRONMENT || env.RAILWAY_PROJECT_ID) return 'Railway';
+    if (env.REPL_ID || env.REPL_SLUG) return 'Replit';
+
+    const hostname = os.hostname().toLowerCase();
+    if (!env.CLOUD_PROVIDER && !env.DYNO && !env.VERCEL && !env.RENDER) {
+        if (hostname.includes('vps') || hostname.includes('server')) return 'VPS';
+        return 'Panel';
+    }
+
+    return 'Unknown Host';
+}
+
 async function sendWelcomeMessage(XeonBotInc) {
     // Safety check: Only proceed if the welcome message hasn't been sent yet in this session.
     if (global.isBotConnected) return; 
