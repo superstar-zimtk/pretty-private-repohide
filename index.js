@@ -402,7 +402,7 @@ async function sendWelcomeMessage(XeonBotInc) {
             text: `
 ┏━━━━━☆《 CONNECTED 》☆
 ┃➥ Prefix: [.]
-┃➥ Platform: ${commands.help.hostName}
+┃➥ Bot: ᴘʀᴇᴛᴛʏ 𝐌ᴅ
 ┃➥ Status: Active
 ┃➥ Vision: ${settings.version}
 ┃➥ Time: ${new Date().toLocaleString()}
