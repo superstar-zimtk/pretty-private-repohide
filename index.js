@@ -402,8 +402,9 @@ async function sendWelcomeMessage(XeonBotInc) {
             text: `
 ┏━━━━━☆《 CONNECTED 》☆
 ┃➥ Prefix: [.]
-┃➥ Bot: ᴘʀᴇᴛᴛʏ 𝐌ᴅ
+┃➥ Platform: ${hostName}
 ┃➥ Status: Active
+┃➥ Vision: ${settings.version}
 ┃➥ Time: ${new Date().toLocaleString()}
 ┃➥ support: https://t.me/xhypher2025
 ┗━━━━━━━━━━━━━━━━━━━`
