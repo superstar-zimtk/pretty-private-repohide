@@ -73,7 +73,7 @@ const hostName = detectHost();
 ┃➥ *ʀᴀᴍ:* [███████░░░] 68%
 ┗❐
   ${readmore}
-┏❐ \`*AI MENU*\` ❐
+┏❐《 *AI MENU* 》 ❐
 ┃ .Ai
 ┃ .gpt
 ┃ .gemini
@@ -81,7 +81,7 @@ const hostName = detectHost();
 ┃ .flux
 ┗❐   
 
-┏❐ \`*OWNER MENU*\` ❐
+┏❐《 *OWNER MENU* 》 ❐
 ┃ .ban
 ┃ .restart
 ┃ .unban
@@ -98,7 +98,7 @@ const hostName = detectHost();
 ┃ .chatbot
 ┗❐
 
-┏❐ \`*GROUP MENU*\` ❐
+┏❐《 *GROUP MENU* 》 ❐
 ┃ .promote
 ┃ .demote
 ┃ .settings
@@ -122,7 +122,7 @@ const hostName = detectHost();
 ┃ .mention
 ┗❐
   ${readmore}
-┏❐ \`*SETTING MENU*\` ❐
+┏❐《 *SETTING MENU* 》❐
 ┃ .mode
 ┃ .autostatus
 ┃ .pmblock
@@ -138,7 +138,7 @@ const hostName = detectHost();
 ┃ .autotyping 
 ┗❐
   
-┏❐ \`*MAIN MENU*\` ❐
+┏❐《 *MAIN MENU* 》❐
 ┃ .url
 ┃ .tagall
 ┃ .yts
@@ -156,7 +156,7 @@ const hostName = detectHost();
 ┃ .ytmp4
 ┗❐
 
-┏❐ \`*STICKER MENU*\` ❐
+┏❐《 *STICKER MENU* 》❐
 ┃ .blur
 ┃ .simage 
 ┃ .sticker
@@ -166,7 +166,7 @@ const hostName = detectHost();
 ┃ .emojimix
 ┗❐
 
-┏❐ \`*GAME MENU*\` ❐
+┏❐《 *GAME MENU* 》❐
 ┃ .tictactoe 
 ┃ .hangman
 ┃ .guess 
@@ -177,7 +177,7 @@ const hostName = detectHost();
 ┃ .8ball
 ┗❐
   ${readmore}
-┏❐ \`*MAKER MENU*\`❐
+┏❐《 *MAKER MENU* 》❐
 ┃ .compliment
 ┃ .insult
 ┃ .flirt 
@@ -191,7 +191,7 @@ const hostName = detectHost();
 ┃ .stupid
 ┗❐
 
-┏❐ \`*ANIME MENU*\` ❐
+┏❐《 *ANIME MENU* 》❐
 ┃ .neko
 ┃ .waifu
 ┃ .loli
@@ -205,7 +205,7 @@ const hostName = detectHost();
 ┃ .facepalm 
 ┗❐
  
-┏❐ \`*MAKER MENU*\` ❐
+┏❐《 *MAKER MENU* 》❐
 ┃ .metallic 
 ┃ .ice 
 ┃ .snow
@@ -226,7 +226,7 @@ const hostName = detectHost();
 ┃ .fire 
 ┗❐
  ${readmore}
-┏❐ \`*IMG EDIT*\` ❐
+┏❐《 *IMG EDIT* 》❐
 ┃ .heart
 ┃ .horny
 ┃ .circle
@@ -244,7 +244,7 @@ const hostName = detectHost();
 ┃ .triggered
 ┗❐
 
-┏❐ \`*GITHUB CMD*\` ❐
+┏❐《 *GITHUB CMD* 》❐
 ┃ .git
 ┃ .github
 ┃ .sc
