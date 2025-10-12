@@ -400,7 +400,7 @@ async function sendWelcomeMessage(XeonBotInc) {
         // Send the message
         await XeonBotInc.sendMessage(pNumber, {
             text: `
-┏━━━━━✧ CONNECTED ✧
+┏━━━━━☆《 CONNECTED 》☆
 ┃➥ Prefix: [.]
 ┃➥ Bot: ᴘʀᴇᴛᴛʏ 𝐌ᴅ
 ┃➥ Status: Active
