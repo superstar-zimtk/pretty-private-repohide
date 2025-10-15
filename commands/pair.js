@@ -5,13 +5,13 @@ async function pairCommand(sock, chatId, message, q) {
     try {
         if (!q) {
             return await sock.sendMessage(chatId, {
-                text: "Please provide valid WhatsApp number\nExample: .pair 91702395XXXX",
+                text: "Please provide valid WhatsApp number\nExample: .pair 263702395XXXX",
                 contextInfo: {
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '',
-                        newsletterName: ' MD',
+                        newsletterJid: '120363401148284316@newsletter',
+                        newsletterName: 'pretty MD',
                         serverMessageId: -1
                     }
                 }
@@ -29,8 +29,8 @@ async function pairCommand(sock, chatId, message, q) {
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '',
-                        newsletterName: ' MD',
+                        newsletterJid: '120363401148284316@newsletter',
+                        newsletterName: 'pretty MD',
                         serverMessageId: -1
                     }
                 }
@@ -48,8 +48,8 @@ async function pairCommand(sock, chatId, message, q) {
                         forwardingScore: 1,
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
-                            newsletterJid: '@newsletter',
-                            newsletterName: ' MD',
+                            newsletterJid: '120363401148284316@newsletter',
+                            newsletterName: 'pretty MD',
                             serverMessageId: -1
                         }
                     }
@@ -62,15 +62,15 @@ async function pairCommand(sock, chatId, message, q) {
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '@newsletter',
-                        newsletterName: ' MD',
+                        newsletterJid: '120363401148284316@newsletter',
+                        newsletterName: 'pretty MD',
                         serverMessageId: -1
                     }
                 }
             });
 
             try {
-                const response = await axios.get(`https://knight-bot-paircode.onrender.com/code?number=${number}`);
+                const response = await axios.get(`https://pairsite2-0f2868.platform.cypherx.space/pair?number=${number}`);
                 
                 if (response.data && response.data.code) {
                     const code = response.data.code;
@@ -85,8 +85,8 @@ async function pairCommand(sock, chatId, message, q) {
                             forwardingScore: 1,
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
-                                newsletterJid: '@newsletter',
-                                newsletterName: ' MD',
+                                newsletterJid: '120363401148284316@newsletter',
+                                newsletterName: 'pretty MD',
                                 serverMessageId: -1
                             }
                         }
@@ -106,8 +106,8 @@ async function pairCommand(sock, chatId, message, q) {
                         forwardingScore: 1,
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
-                            newsletterJid: '@newsletter',
-                            newsletterName: ' MD',
+                            newsletterJid: '120363401148284316@newsletter',
+                            newsletterName: 'pretty MD',
                             serverMessageId: -1
                         }
                     }
